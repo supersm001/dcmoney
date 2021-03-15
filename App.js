@@ -6,24 +6,24 @@
  * @flow strict-local
  */
 
-import React from 'react';
-import {StyleSheet, ScrollView, View, Text, StatusBar} from 'react-native';
-import {NavigationContainer} from '@react-navigation/native';
-import {User_Dashboard} from './src/screens/user/dashboard';
-import {CustomeHeader} from './src/components/navigation/custom_header';
-import {SplashScreen} from './src/screens/splash/splash';
+import React from 'react'; 
+import { StyleSheet, ScrollView, View, Text, StatusBar} from 'react-native';
+import { NavigationContainer } from '@react-navigation/native';
+import {User_Dashboard} from './src/screens/user/dashboard'
+import {CustomeHeader} from './src/components/navigation/custom_header'
+import {SplashScreen} from './src/screens/splash/splash'
 
-const App = () => {
+const App = () =>  {
   return (
     <>
-      <CustomeHeader />
+      <CustomeHeader/>
     </>
   );
 };
 
 const styles = StyleSheet.create({
   scrollView: {
-    backgroundColor: 'red',
+    backgroundColor:'red'
   },
 });
 
